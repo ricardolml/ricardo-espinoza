@@ -128,7 +128,7 @@ export const Home = () => {
                             <div className="card-skills-div">
                                 <div className="flex justify-center items-center flex-wrap gap-10">
                                     <div className="flex items-center">
-                                        <img src="./img/ANGULAR.png" className="w-9" alt="" />
+                                        <img src="./img/angular.png" className="w-9" alt="" />
                                         <label>&#160;Angular8+</label>
                                     </div>
                                     <div className="flex items-center">
