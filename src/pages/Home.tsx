@@ -136,6 +136,10 @@ export const Home = () => {
                                         <label>&#160; Bootstrap</label>
                                     </div>
                                     <div className="flex items-center">
+                                        <img src="./img/tailwind.png" className="w-9" alt="" />
+                                        <label>&#160; Tailwind css</label>
+                                    </div>
+                                    <div className="flex items-center">
                                         <img src="./img/ionic.png" className="w-10" alt="" />
                                         <label>&#160; Ionic Angular</label>
                                     </div>
