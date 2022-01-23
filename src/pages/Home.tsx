@@ -84,6 +84,14 @@ export const Home = () => {
                                     RXJS
                                 </a>
                             </div>
+                            <h1 className="text-center text-xl mt-10 mb-3">In progress</h1>
+                            <div className='card-skills-div justify-center'>
+                                <a href="https://www.udemy.com/course/rxjs-de-cero-hasta-los-detalles/" className="a-skip" target="_blank" rel="noreferrer">
+                                    <img src="./img/vue.png" className="w-10" alt="" />
+                                    Vue JS
+                                </a>
+                            </div>
+
                         </div>
                         <div className="col-span-1 md:col-span-2 lg:col-span-1 row-span-4 order-5 lg:order-1">
                             <div className="card-skills">
@@ -175,35 +183,24 @@ export const Home = () => {
                         <div className="card-skills order-4 lg:order-5">
                             <h1 className="text-center text-xl mb-3 ">Database</h1>
                             <div className="card-skills-div">
-                                <ul>
-                                    <li>
-                                        <div className="flex items-center">
-                                            <img src="./img/mysql.png" className="w-10" alt="" />
-                                            <label>MySQL</label>
-                                        </div>
-                                    </li>
-                                    <li className="mt-3">
-                                        <div className="flex items-center">
-                                            <img src="./img/sql-s.png" className="w-10" alt="" />
-                                            <label>&#160;SQL Server</label>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <ul className="ml-0 mg:ml-16">
-                                    <li>
-                                        <div className="flex items-center">
-                                            <img src="./img/fire.png" className="w-10" alt="" />
-                                            <label> &#160; Firebase</label>
-                                        </div>
-                                    </li>
-                                    <li className="mt-3">
-                                        <div className="flex items-center">
-                                            <img src="./img/mongo.png" className="w-10" alt="" />
-                                            <label>&#160;Mongo basic</label>
-                                        </div>
-
-                                    </li>
-                                </ul>
+                                <div className="flex justify-center flex-wrap gap-10">
+                                    <div className="flex items-center">
+                                        <img src="./img/mysql.png" className="w-10" alt="" />
+                                        <label>MySQL</label>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <img src="./img/sql-s.png" className="w-10" alt="" />
+                                        <label>&#160;SQL Server</label>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <img src="./img/fire.png" className="w-10" alt="" />
+                                        <label> &#160; Firebase</label>
+                                    </div>
+                                    <div className="flex items-center">
+                                        <img src="./img/mongo.png" className="w-10" alt="" />
+                                        <label>&#160;Mongo basic</label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
