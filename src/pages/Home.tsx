@@ -86,7 +86,7 @@ export const Home = () => {
                             </div>
                             <h1 className="text-center text-xl mt-10 mb-3">In progress</h1>
                             <div className='card-skills-div justify-center'>
-                                <a href="https://www.udemy.com/course/rxjs-de-cero-hasta-los-detalles/" className="a-skip" target="_blank" rel="noreferrer">
+                                <a href="https://www.udemy.com/course/vuejs-fh/" className="a-skip" target="_blank" rel="noreferrer">
                                     <img src="./img/vue.png" className="w-10" alt="" />
                                     Vue JS
                                 </a>

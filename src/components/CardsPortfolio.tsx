@@ -5,6 +5,21 @@ export const CardsPortfolio = () => {
             <h1 className="text-center text-xl mb-3">Portfolio</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                 <div className="border-4 border-gray-600 rounded-lg shadow">
+                    <a href="https://ricardolml.github.io/pokemon-game/" target="_blank" rel="noreferrer">
+                        <img src="./img/pokemon.png" alt="weather-app" className="rounded-lg" />
+                    </a>
+                    <div className="mx-5 my-2">
+                        <h1 className="font-bold text-lg mb-3 text-blue-400">Pokemon Game VueJS</h1>
+                        <p className="font-sans text-justify text-sm">
+                            Pokemon game tries to guess the pokemon that is hidden. <a href="https://github.com/ricardolml/pokemon-game" target="_blank" rel="noreferrer" className="text-blue-500" > More details in the repository. </a>
+                            The technologies used: VueJS, Api Pokemon.
+                        </p>
+                        <div className="flex flex-row-reverse">
+                            <a href="https://ricardolml.github.io/pokemon-game/" target="_blank" rel="noreferrer" className="px-2 py-1 bg-blue-500 rounded-lg w-20 text-center mt-5 text-xs">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="border-4 border-gray-600 rounded-lg shadow">
                     <a href="https://ricardolml.github.io/profile-tailwind-react/" target="_blank" rel="noreferrer">
                         <img src="./img/tail.png" alt="weather-app" className="rounded-lg" />
                     </a>
@@ -100,6 +115,7 @@ export const CardsPortfolio = () => {
                         </div>
                     </div>
                 </div>
+
 
             </div>
         </>
