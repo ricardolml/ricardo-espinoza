@@ -12,7 +12,7 @@ export const Home = () => {
                     <h1 className="text-3xl font-bold text-center mt-3">Ricardo Espinoza Vazquez</h1>
                     <div className='flex justify-center contenedor'>
                         <h2 className="text-2xl text-gray-400 font-bold mt-2 text-center">
-                            Frontend Developer...<span className='bg-slate-800'>&#160; </span>
+                            FullStack Developer...<span className='bg-slate-800'>&#160; </span>
                         </h2>
                     </div>
 
