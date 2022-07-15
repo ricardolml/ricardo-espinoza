@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import useFetch from '../hooks/useFetch';
 interface Proyect {
   descript: string;
@@ -9,7 +8,7 @@ interface Proyect {
   img?: string;
 }
 
-export const CardsPortfolio = () => {
+const CardsPortfolio = () => {
   const { data, loading } = useFetch('proyects');
   if (loading) {
     return <></>;
@@ -58,3 +57,4 @@ export const CardsPortfolio = () => {
     </>
   );
 };
+export default CardsPortfolio;

@@ -1,6 +1,12 @@
-import { CardsPortfolio } from '../components/CardsPortfolio';
-import Certifications from '../components/Certifications';
-import Database from '../components/Database';
+import {
+  CardsPortfolio,
+  Certifications,
+  Courses,
+  Database,
+  Languages,
+  Libraries,
+} from '../components';
+
 export const Home = () => {
   return (
     <div className='font-rale'>
@@ -14,7 +20,7 @@ export const Home = () => {
             />
           </div>
           <h1 className='text-3xl font-bold text-center mt-3'>
-            Ricardo Espinoza Vazquez
+            Ricardo Espinoza Vázquez
           </h1>
           <div className='flex justify-center contenedor'>
             <h2 className='text-2xl text-gray-400 font-bold mt-2 text-center'>
@@ -85,66 +91,7 @@ export const Home = () => {
           {/* flex justify-center items-start flex-wrap lg:flex-nowrap */}
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 '>
             <div className='card-skills order-1 lg:order-2'>
-              <h1 className='text-center text-xl mb-3'>Courses</h1>
-              <div className='card-skills-div justify-center'>
-                <a
-                  href='https://www.udemy.com/course/angular-fernando-herrera/'
-                  className='a-skip'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img src='./img/angular.png' className='w-10' alt='' />
-                  Angular
-                </a>
-                <a
-                  href='https://www.udemy.com/course/master-en-css-responsive-sass-flexbox-grid-y-boostrap-4'
-                  className='a-skip'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img src='./img/css.png' className='w-10' alt='' />
-                  CSS
-                </a>
-                <a
-                  href='https://www.udemy.com/course/git-github/'
-                  className='a-skip'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img src='./img/git.png' className='w-10' alt='' />
-                  Git
-                </a>
-                <a
-                  href='https://www.udemy.com/course/react-cero-experto/'
-                  className='a-skip'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img src='./img/react.png' className='w-10' alt='' />
-                  <label>React</label>
-                </a>
-                <a
-                  href='https://www.udemy.com/course/rxjs-de-cero-hasta-los-detalles/'
-                  className='a-skip'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img src='./img/rxjs.png' className='w-10' alt='' />
-                  RXJS
-                </a>
-              </div>
-              <h1 className='text-center text-xl mt-10 mb-3'>In progress</h1>
-              <div className='card-skills-div justify-center'>
-                <a
-                  href='https://www.udemy.com/course/vuejs-fh/'
-                  className='a-skip'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <img src='./img/vue.png' className='w-10' alt='' />
-                  Vue JS
-                </a>
-              </div>
+              <Courses />
             </div>
             <div className='card-skills order-2 lg:order-3'>
               <Certifications />
@@ -156,87 +103,11 @@ export const Home = () => {
             </div>
 
             <div className='card-skills order-3 lg:order-4'>
-              <h1 className='text-center text-xl mb-3 '>
-                Programming Languages
-              </h1>
-              <div className='card-skills-div'>
-                <div className='flex justify-center flex-wrap gap-10'>
-                  <div className='flex items-center'>
-                    <img src='./img/css.png' className='w-10' alt='' />
-                    <label>CSS</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/dart.png' className='w-8' alt='' />
-                    <label>&#160; Dart - Basic</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/js.png' className='w-7' alt='' />
-                    <label>&#160; JavaScript</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/php.png' className='w-10' alt='' />
-                    <label> &#160; PHP</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/sass.png' className='w-10' alt='' />
-                    <label>&#160;SCSS</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/ts.png' className='w-7' alt='' />
-                    <label>&#160; TypeScript</label>
-                  </div>
-                </div>
-              </div>
+              <Languages />
             </div>
 
             <div className='card-skills order-4 lg:order-5'>
-              <h1 className='text-center text-xl mb-3 '>
-                Frameworks & Libraries
-              </h1>
-              <div className='card-skills-div'>
-                <div className='flex justify-center items-center flex-wrap gap-10'>
-                  <div className='flex items-center'>
-                    <img src='./img/angular.png' className='w-9' alt='' />
-                    <label>&#160;Angular8+</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/bot.png' className='w-9' alt='' />
-                    <label>&#160; Bootstrap</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/tailwind.png' className='w-9' alt='' />
-                    <label>&#160; Tailwind css</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/ionic.png' className='w-10' alt='' />
-                    <label>&#160; Ionic Angular</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/lumen.png' className='w-10' alt='' />
-                    <label> &#160; Lumen</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/flutter.png' className='w-10' alt='' />
-                    <label>&#160;Flutter - basic</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/lumen.png' className='w-10' alt='' />
-                    <label>&#160; Laravel 4.*</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/react.png' className='w-10' alt='' />
-                    <label>&#160; React</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/redux.png' className='w-10' alt='' />
-                    <label>&#160; Redux</label>
-                  </div>
-                  <div className='flex items-center'>
-                    <img src='./img/rxjs.png' className='w-10' alt='' />
-                    <label>&#160; RXJS</label>
-                  </div>
-                </div>
-              </div>
+              <Libraries />
             </div>
 
             <div className='card-skills order-5 lg:order-6'>
