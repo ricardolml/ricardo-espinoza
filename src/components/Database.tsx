@@ -1,7 +1,7 @@
 import React from 'react';
 import useFetch from '../hooks/useFetch';
 
-interface Database {
+interface Data {
   img: string;
   name: string;
 }
@@ -11,7 +11,7 @@ const Database = () => {
   if (loading) {
     return <></>;
   }
-  const database = data.map(({ img, name }: Database) => (
+  const database = data.map(({ img, name }: Data) => (
     <div className='flex items-center' key={img}>
       <img src={img} className='w-10' alt={name} />
       <label>{name}</label>
