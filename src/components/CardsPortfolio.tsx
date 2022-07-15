@@ -116,6 +116,22 @@ export const CardsPortfolio = () => {
                     </div>
                 </div>
 
+                <div className="border-4 border-gray-600 rounded-lg shadow">
+                    <a href="https://ricardolml.github.io/vue-journal-vuex/" target="_blank" rel="noreferrer">
+                        <img src="./img/jounal-vue.png" alt="jounal-app" className="rounded-lg" />
+                    </a>
+                    <div className="mx-5 my-2">
+                        <h1 className="font-bold text-lg mb-3 text-blue-400">Journal-VueJS-Vuex App</h1>
+                        <p className="font-sans text-justify text-sm">
+                            It is a small project for managing notes, the user will be able to create, update and delete notes. <a href="https://github.com/ricardolml/vue-journal-vuex" target="_blank" rel="noreferrer" className="text-blue-500" > More details in the repository. </a>
+                            The technologies used: VueJs, vuex, css, firebase Realtime Database and cloudinary.
+                        </p>
+                        <div className="flex flex-row-reverse">
+                            <a href="https://ricardolml.github.io/vue-journal-vuex" target="_blank" rel="noreferrer" className="px-2 py-1 bg-blue-500 rounded-lg w-20 text-center mt-5 text-xs">View</a>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </>

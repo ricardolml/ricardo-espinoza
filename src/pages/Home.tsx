@@ -93,13 +93,69 @@ export const Home = () => {
                             </div>
 
                         </div>
-                        <div className="col-span-1 md:col-span-2 lg:col-span-1 row-span-4 order-5 lg:order-1">
+                        <div className="card-skills order-2 lg:order-3">
+                            <h1 className="text-center text-xl mb-3">Certifications</h1>
+                            <div className="card-skills-div">
+                                <div className='flex gap-5 items-center p-4 w-full'>
+                                    <div>
+                                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-6b53debd-6cb0-433f-a986-4aa55c76d4b2.pdf" target="_blank" rel="noreferrer">
+                                            <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=2147483647&v=beta&t=Wz78YREAq7TUQO6J0Y_a1TyyEURdQUMzZrU3OrIV5o0" className="w-32 md:w-14" alt="" />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <p className='font-bold'>
+                                            Angular: De cero a experto <br />
+                                        </p>
+                                        Udemy <br />
+                                        Credential ID: UC-6b53debd-6cb0-433f-a986-4aa55c76d4b2 <br />
+                                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-6b53debd-6cb0-433f-a986-4aa55c76d4b2.pdf" target="_blank" rel="noreferrer" className="text-blue-500"> View Credential</a>
+
+                                    </div>
+                                </div>
+                                <div className='flex gap-5 items-center p-4 w-full'>
+                                    <div>
+                                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-f2affe0c-aac8-4bcd-8a13-e3869cee52f1.pdf" target="_blank" rel="noreferrer">
+                                            <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=2147483647&v=beta&t=Wz78YREAq7TUQO6J0Y_a1TyyEURdQUMzZrU3OrIV5o0" className="w-32 md:w-14" alt="" />
+                                        </a>
+                                    </div>
+                                    <div className=''>
+                                        <p className='font-bold'>
+                                            ReactiveX - RxJs: De cero hasta los detalles <br />
+                                        </p>
+                                        Udemy <br />
+                                        Credential ID: UC-f2affe0c-aac8-4bcd-8a13-e3869cee52f1 <br />
+                                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-f2affe0c-aac8-4bcd-8a13-e3869cee52f1.pdf" target="_blank" rel="noreferrer" className="text-blue-500"> View Credential</a>
+
+                                    </div>
+                                </div>
+                                <div className='flex gap-5 items-center p-4 w-full'>
+                                    <div>
+                                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-4fb1ba3c-9d18-44d8-84d8-510f9745d1bd.pdf" target="_blank" rel="noreferrer">
+                                            <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=2147483647&v=beta&t=Wz78YREAq7TUQO6J0Y_a1TyyEURdQUMzZrU3OrIV5o0" className="w-32 md:w-14" alt="" />
+                                        </a>
+                                    </div>
+                                    <div className=''>
+                                        <p className='font-bold'>
+                                            Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap <br />
+                                        </p>
+                                        Udemy <br />
+                                        Credential ID: UC-4fb1ba3c-9d18-44d8-84d8-510f9745d1bd <br />
+                                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-4fb1ba3c-9d18-44d8-84d8-510f9745d1bd.pdf" target="_blank" rel="noreferrer" className="text-blue-500"> View Credential</a>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div className="col-span-1 md:col-span-2 lg:col-span-1 row-span-5 order-6 lg:order-1">
                             <div className="card-skills">
                                 <CardsPortfolio />
                             </div>
                         </div>
 
-                        <div className="card-skills order-2 lg:order-3">
+                        <div className="card-skills order-3 lg:order-4">
                             <h1 className="text-center text-xl mb-3 ">Programming Languages</h1>
                             <div className="card-skills-div">
                                 <div className="flex justify-center flex-wrap gap-10">
@@ -131,7 +187,7 @@ export const Home = () => {
                             </div>
                         </div>
 
-                        <div className="card-skills order-3 lg:order-4">
+                        <div className="card-skills order-4 lg:order-5">
                             <h1 className="text-center text-xl mb-3 ">Frameworks & Libraries</h1>
                             <div className="card-skills-div">
                                 <div className="flex justify-center items-center flex-wrap gap-10">
@@ -180,7 +236,7 @@ export const Home = () => {
                             </div>
                         </div>
 
-                        <div className="card-skills order-4 lg:order-5">
+                        <div className="card-skills order-5 lg:order-6">
                             <h1 className="text-center text-xl mb-3 ">Database</h1>
                             <div className="card-skills-div">
                                 <div className="flex justify-center flex-wrap gap-10">
